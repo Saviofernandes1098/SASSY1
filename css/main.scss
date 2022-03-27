@@ -11,5 +11,12 @@ body,html {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: map-get($colors , primary); //This wouldn't have worked in regular css
+    margin: 0;
+    
+    #bg {
+        clip-path: polygon(100% 0, 100% 61%, 59% 100%, 0 100%, 0 0);
+        background-color: map-get($colors , primary); //This wouldn't have worked in regular css
+
+    }
+
 } 

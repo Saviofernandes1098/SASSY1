@@ -5,6 +5,12 @@ body, html {
 
 body {
   font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+body #bg {
+  -webkit-clip-path: polygon(100% 0, 100% 61%, 59% 100%, 0 100%, 0 0);
+          clip-path: polygon(100% 0, 100% 61%, 59% 100%, 0 100%, 0 0);
   background-color: #005dff;
 }
 /*# sourceMappingURL=main.css.map */
