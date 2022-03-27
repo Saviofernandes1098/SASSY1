@@ -1,0 +1,9 @@
+
+$colors: (
+    primary: #005dff, //We will create a variable called mycolor
+    accent: #fff6bb,
+);
+
+body {
+    background-color: map-get($colors , primary); //This wouldn't have worked in regular css
+} 
